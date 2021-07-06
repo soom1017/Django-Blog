@@ -7,7 +7,7 @@ class Post(models.Model):
     content = models.TextField()
 
     created_at = models.DateTimeField(auto_now_add=True)
-    created_at = models.DateTimeField(auto_now=True)
+    updated_at = models.DateTimeField(auto_now=True)
     #author: 추후 작성 예정
 
     def __str__(self):
